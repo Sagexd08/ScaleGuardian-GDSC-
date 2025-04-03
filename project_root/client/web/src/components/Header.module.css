@@ -1,0 +1,24 @@
+.header {
+  background-color: #3182ce;
+  padding: 1rem;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navList li {
+  margin: 0 1rem;
+}
+
+.navList a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navList a:hover {
+  text-decoration: underline;
+}

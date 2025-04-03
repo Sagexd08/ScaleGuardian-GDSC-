@@ -1,0 +1,30 @@
+/*
+ * Theme CSS File
+ *
+ * Use this file for:
+ * 1. Defining CSS variables for theming (colors, spacing, fonts).
+ * 2. Overriding specific component styles if needed (though Tailwind utility classes are preferred).
+ * 3. Defining complex component styles not easily achievable with utility classes alone.
+ */
+
+/* Example: CSS Variables for Theming */
+/* :root {
+  --primary-color: #3b82f6; / * blue-500 * /
+  --secondary-color: #6b7280; / * gray-500 * /
+  --background-color: #f9fafb; / * gray-50 * /
+  --text-color: #111827; / * gray-900 * /
+} */
+
+/* Example: Applying variables */
+/* .custom-button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+} */
+
+/* Example: Overriding a default style (use sparingly) */
+/* h1 {
+  @apply text-4xl font-bold; / * Combine with Tailwind * /
+  color: var(--text-color); / * Use variable * /
+} */

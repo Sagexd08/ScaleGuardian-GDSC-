@@ -1,0 +1,7 @@
+# Content Moderation with Gemini API - Requirements
+requests>=2.28.0
+tqdm>=4.64.0
+colorama>=0.4.5
+python-dotenv>=0.20.0
+argparse>=1.4.0
+typing>=3.7.4

@@ -1,0 +1,26 @@
+/* Include Tailwind base styles, component classes, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add global styles here */
+/* Example: Define base body styles */
+body {
+  @apply font-sans antialiased text-gray-900 bg-gray-100;
+  /* font-family: 'Inter', sans-serif; /* Example custom font */
+}
+
+/* Example: Custom scrollbar (use with caution, browser support varies) */
+/* ::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */

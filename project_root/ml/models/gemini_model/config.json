@@ -1,0 +1,37 @@
+{
+  "api": {
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+    "default_api_key": "AIzaSyBUS_G7RP-5QBHxGW3RFFSt3Snbs983okQ",
+    "timeout_seconds": 30,
+    "max_retries": 3,
+    "retry_delay_seconds": 2
+  },
+  "moderation": {
+    "categories": [
+      "hate_speech",
+      "harassment",
+      "sexual_content",
+      "violence",
+      "dangerous_content",
+      "misinformation"
+    ],
+    "sensitivity_level": "medium",
+    "response_template": "Please moderate the following content and identify if it contains harmful, offensive, or inappropriate material. Provide a detailed analysis of any problematic content found, categorizing issues as: hate speech, violence, sexual content, harassment, or other harmful content. If the content is safe, indicate that as well."
+  },
+  "model_settings": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "top_k": 40,
+    "max_output_tokens": 1024
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file_path": null
+  },
+  "cache": {
+    "enabled": true,
+    "max_size": 100,
+    "ttl_seconds": 3600
+  }
+}
